@@ -27,6 +27,7 @@ html, body{
     justify-content: center;
     gap: 80px;
     position: fixed;
+    cursor: pointer;
 }
 
 .card{
@@ -81,4 +82,7 @@ html, body{
 .card button:hover{
     background-color: transparent;
     color: rgb(29, 180, 231);
+}
+#navbar>h4:hover{
+        background-color: red;
 }
