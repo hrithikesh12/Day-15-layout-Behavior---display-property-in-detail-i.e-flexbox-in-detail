@@ -16,7 +16,7 @@ html, body{
     background-color: lightblue;
     display: flex;
     gap:10px;
-    overflow: auto;
+    flex-wrap: wrap;
 }
 #navbar{
     height: 30px;
@@ -43,7 +43,7 @@ html, body{
     padding: 20px;
     gap: 10px;
     flex-shrink: 0;
-    margin-top: 10%;
+    margin-top: 3%;
     
 }
 
